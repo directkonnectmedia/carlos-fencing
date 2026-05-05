@@ -2,6 +2,10 @@
 export const CUSTOM_GATES_PHOTO_URL =
   'https://images.pexels.com/photos/34277689/pexels-photo-34277689.jpeg?auto=compress&cs=tinysrgb&w=1500'
 
+/** Custom Fences service card + gallery Project 20 (same asset) */
+export const CUSTOM_FENCES_PHOTO_URL =
+  'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/668985570_928865306431625_8559115023608950908_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=TyrFa59mlaMQ7kNvwEB1oUj&_nc_oc=AdpT2XCY8yxJOqeavYgfnDzKTh6DJNDhLNjOge3bURfxDfhY3katykgYdWRYl4Pig0NzbquJKZMwx-dT5OOXQnuP&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=pp4SLime7K0ai4bHNeFXiA&_nc_ss=7b2a8&oh=00_Af42lnuskUOhOk0Ge-CXZI_7fprQbc6iGu9acMC_rlp15w&oe=69FFF631'
+
 /** Facebook CDN URLs for Our Recent Work gallery */
 export const GALLERY_IMAGE_URLS = [
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/681401021_1522365049483490_181687045078044403_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=1YfCXO7YGOMQ7kNvwGkA2-8&_nc_oc=Adr_6EpQdWVCjcIOWusQTm-MAEEPrFiLjhoqBBbbJ8oyaaP8bce6ftq4jB7v2eUpCH8hfvL1dS9tEoE-QjXkckVn&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=0TV4mLVYQdBEVrt4YQ4POw&_nc_ss=7b2a8&oh=00_Af7jINskqFnxh3DeaQO9Ic1TWGdY5ADIL3WWsFFmmihXHw&oe=6A0021AA',
@@ -23,7 +27,7 @@ export const GALLERY_IMAGE_URLS = [
   'https://scontent-phx1-1.xx.fbcdn.net/v/t39.84726-6/674925033_1229215599022231_4530605550879613399_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=92e707&_nc_ohc=MXtyYuvbhB4Q7kNvwGU_UHj&_nc_oc=Adovyey7G0Wbd_lNdDHp8RTa7Y980ELXxeyBq3qb3RWwUSmc4GWpZcA1yggVea6OapGIUnhZ0SGA8HxAQcNdJvd6&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=QSstratcY_LfVRpRh016Mg&_nc_ss=7b2a8&oh=00_Af7C8m12IVSg4maJTOAYMHBuT36FBZ25JZOcVbDVXxm7KQ&oe=69FFF815',
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/676460671_1896678664322477_4540454313130120795_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=247b10&_nc_ohc=UkAWyVdV284Q7kNvwElpvUv&_nc_oc=AdqofQqExJurUXjesXjGggu1Wi87HLAvTLRpbe3ml4Sf4t-h4UVWW8Yc4Q7QW2noB_oItvFHavTQFyYD73d2w624&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=FFj1i178pccmr8wbVYyDIw&_nc_ss=7b2a8&oh=00_Af4ve2SPw_fd0euntptrgcmATxDArmhV9AagZqaLMscCfA&oe=6A00252B',
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/676534969_994765732984844_1951224129930815621_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=247b10&_nc_ohc=vZYbNUXvI7kQ7kNvwGD8uCm&_nc_oc=AdrUn_JOCgFdFXrZWP8Eqi-qN3zi1gnjNpUxOgQiJXqBmT3UyNp6pa-QPqYBVySiuOkpE_A0iEX_TBTpvBbCRuD4&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=RjRY0bw2kRvGvTSLNnpkyA&_nc_ss=7b2a8&oh=00_Af6zIt7H_YgpMpkVI20rqJYwnygHPRKLsScjJv0Fc2_RDQ&oe=6A0023DC',
-  'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/668985570_928865306431625_8559115023608950908_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=TyrFa59mlaMQ7kNvwEB1oUj&_nc_oc=AdpT2XCY8yxJOqeavYgfnDzKTh6DJNDhLNjOge3bURfxDfhY3katykgYdWRYl4Pig0NzbquJKZMwx-dT5OOXQnuP&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=pp4SLime7K0ai4bHNeFXiA&_nc_ss=7b2a8&oh=00_Af42lnuskUOhOk0Ge-CXZI_7fprQbc6iGu9acMC_rlp15w&oe=69FFF631',
+  CUSTOM_FENCES_PHOTO_URL,
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/668658391_1609826716795015_8373280569792732239_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=pIP2-rcg9X4Q7kNvwGQe6Zf&_nc_oc=AdpxdN94p2Q4xIHtXF4uK9ZMGc2OHlSa6Iy-q0ZtdOlHeO3SlS3C9SFZCFROLatlC2AqO81Tcv00lqMlRUdSeQka&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=VjARCvhDvuhHtMkKUrVbng&_nc_ss=7b2a8&oh=00_Af4cRyknYOqQwgLg71TR2TgGFEYpxxw2b4FN7CKUBjAOPQ&oe=6A001CBA',
 ]
 

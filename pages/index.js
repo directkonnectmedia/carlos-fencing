@@ -10,6 +10,7 @@ import {
   GALLERY_IMAGE_URLS,
   GALLERY_PREVIEW_COUNT,
   CUSTOM_GATES_PHOTO_URL,
+  CUSTOM_FENCES_PHOTO_URL,
 } from '../data/galleryImages'
 
 const Home = (props) => {
@@ -145,8 +146,8 @@ const Home = (props) => {
                 <div className="core-services__card-image reveal">
                   <div className="core-services__card-image-frame">
                     <img
-                      alt="Custom wooden privacy fence with horizontal plank detail"
-                      src="https://images.pexels.com/photos/10450058/pexels-photo-10450058.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      alt="Custom fence installation — wood, vinyl, chain link, and steel"
+                      src={CUSTOM_FENCES_PHOTO_URL}
                       loading="lazy"
                     />
                   </div>
