@@ -2035,6 +2035,43 @@ body {
   padding: 0 var(--spacing-xl);
 }
 
+/* Radial vignette behind hero title + subtitle only (legibility) */
+.hero-showcase__text-block {
+  position: relative;
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: clamp(0.45rem, 1.2vw, 1rem) clamp(0.65rem, 2.2vw, 1.6rem);
+  box-sizing: border-box;
+}
+
+.hero-showcase__text-block::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  inset: -10% -14% -8% -14%;
+  background: radial-gradient(
+    ellipse 74% 70% at 50% 44%,
+    rgba(0, 0, 0, 0.82) 0%,
+    rgba(0, 0, 0, 0.48) 34%,
+    rgba(0, 0, 0, 0.2) 58%,
+    rgba(0, 0, 0, 0) 84%
+  );
+}
+
+.hero-showcase__text-block .hero-title,
+.hero-showcase__text-block .hero-subtitle {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-showcase__text-block .hero-subtitle {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .hero-showcase__actions {
   gap: var(--spacing-lg);
   margin-top: clamp(1.75rem, 2vw + 1rem, 2.75rem);

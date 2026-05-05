@@ -55,13 +55,15 @@ const Home = (props) => {
             <div className="hero-showcase__overlay"></div>
           </div>
           <div className="hero-showcase__content reveal">
-            <h1 className="hero-title">
-              L.R{' '}
-              <span className="hero-title__accent">Fences</span>
-            </h1>
-            <p className="hero-subtitle">
-              Professional Fences, Gates, And Pergolas Made For You.
-            </p>
+            <div className="hero-showcase__text-block">
+              <h1 className="hero-title">
+                L.R{' '}
+                <span className="hero-title__accent">Fences</span>
+              </h1>
+              <p className="hero-subtitle">
+                Professional Fences, Gates, And Pergolas Made For You.
+              </p>
+            </div>
             <div className="hero-showcase__actions">
               <a href="#contact">
                 <div className="btn btn-lg btn-primary">
