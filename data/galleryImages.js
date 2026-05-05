@@ -1,5 +1,9 @@
-/** Custom Gates service card + gallery Project 13 (same asset) */
+/** Custom Gates service card + gallery Project 11 (same asset) */
 export const CUSTOM_GATES_PHOTO_URL =
+  'https://scontent-phx1-1.xx.fbcdn.net/v/t39.84726-6/673752672_1302713611784901_2397475101114624055_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=92e707&_nc_ohc=Elhz3MHo5OQQ7kNvwEct-S6&_nc_oc=AdqQdpttguetqrsqayAOHxEV0hwPObn5vgQdLPMJyqJdYDs3J6UB9bcpWQs8Q6kRYUh71dN7O8BS307-j1plJuif&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=mwlhV2L3StzJ4SIN6OcYaw&_nc_ss=7b2a8&oh=00_Af690YDWfT1ERgv3wEF18g_NayfoAnDTuaApf_xEa_PERw&oe=6A000DD3'
+
+/** Gallery Project 12: previous Pexels gate image (keeps gallery distinct from Project 11) */
+const GALLERY_PROJECT_12_PEXELS =
   'https://images.pexels.com/photos/34277689/pexels-photo-34277689.jpeg?auto=compress&cs=tinysrgb&w=1500'
 
 /** Custom Fences service card + gallery Project 20 (same asset) */
@@ -18,8 +22,8 @@ export const GALLERY_IMAGE_URLS = [
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/676701663_1263510882150155_7846840890173814938_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=247b10&_nc_ohc=j8vok2FdLY4Q7kNvwE8uZWg&_nc_oc=AdpjdpE7iTeudeGxxTz-Mt-Brz6CuPV3b_SaiTDItKVemJIHvE4aKl0pQUxf6WICAv7Aa2kW50B0XumGltvXm_xj&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=2chyQpaCVjFRTvyfoNmabg&_nc_ss=7b2a8&oh=00_Af4FK8rzwQDGbvHO7xZvrpqXsAQ8HF_v2jdVWkcHSbTgCQ&oe=6A001CA5',
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/676701794_896461546738755_8865466770488727507_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=N4IaQS-X_f4Q7kNvwEVd_Bp&_nc_oc=AdrIuUeT6nfz73spuZ7TpfmlfVU-1qwCHtx7KQc-uYDoUyWLmwoBiLR3ycKfTGsIeF6otxfmm9TQB-oPWgYgHGKX&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=2chyQpaCVjFRTvyfoNmabg&_nc_ss=7b2a8&oh=00_Af6-AWbEF13e9Kpvz9gfNX6hnc4ztrLgqFLTjXBKTdwOtA&oe=6A00001B',
   'https://scontent-phx1-1.xx.fbcdn.net/v/t39.84726-6/679765193_1439378264140424_7535855771003292614_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=92e707&_nc_ohc=GRsrwkG3ijsQ7kNvwFThCKW&_nc_oc=AdqcZmTvEeh66G2RTpemKpA8KMUg281eISvi1GKCTD9WAg0zKsncD5fmttY2P_D5gIltb8tQ1QFqwSyGNnQbPE8q&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=7831taXdYdGCCuLfnWXXzg&_nc_ss=7b2a8&oh=00_Af7ei4q6Btc8qQ2aMHLlEsye-xKziZI3y16ODjct_0F_Dw&oe=6A000A10',
-  'https://scontent-phx1-1.xx.fbcdn.net/v/t39.84726-6/673752672_1302713611784901_2397475101114624055_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=92e707&_nc_ohc=Elhz3MHo5OQQ7kNvwEct-S6&_nc_oc=AdqQdpttguetqrsqayAOHxEV0hwPObn5vgQdLPMJyqJdYDs3J6UB9bcpWQs8Q6kRYUh71dN7O8BS307-j1plJuif&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=mwlhV2L3StzJ4SIN6OcYaw&_nc_ss=7b2a8&oh=00_Af690YDWfT1ERgv3wEF18g_NayfoAnDTuaApf_xEa_PERw&oe=6A000DD3',
   CUSTOM_GATES_PHOTO_URL,
+  GALLERY_PROJECT_12_PEXELS,
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/676793280_1511256714040173_5931915868613378999_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=tIqh5eFK_4sQ7kNvwHibyvH&_nc_oc=AdpJAold3M8Ox7Cx4BerqsKPowUD3DKMyBVUdASuhbKKQam672DviNjnBb50dKEqXjJ-ud9GTQZ65E-cCF0ONTQP&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=mwlhV2L3StzJ4SIN6OcYaw&_nc_ss=7b2a8&oh=00_Af6aBY3HiNm2mxn5JC7YmghNp8ZNUFWNZt7FqlI_s8aZvQ&oe=6A002109',
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/676462527_2201757303910854_333125008396450112_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_ohc=267JD3_AhfYQ7kNvwGqvyhm&_nc_oc=AdoOvl5DkGt5X96rNQLGxUT0FQVrEqoUdkACcMnXhuJWSvqzbNL77bFmxTJD_I9ndhLWEqCpzkDj0PxBPw-7Hfw_&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=mwlhV2L3StzJ4SIN6OcYaw&_nc_ss=7b2a8&oh=00_Af7M2HBsIGYJN7kqC8LZbqMrWDVJjTYKjdQMZcfGAb5Rmg&oe=6A0011CA',
   'https://scontent-phx1-1.xx.fbcdn.net/v/t39.84726-6/675430638_1693669635416049_1853098356584702531_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=92e707&_nc_ohc=UMSlGlNwmn0Q7kNvwExR_P1&_nc_oc=AdqMpTA2fr6wvs0HowH_MFMCLjfiliYpv_rdGHzoMYOW7vRk7oGYU1UDLXQAwzewFbm2ULS2u1jtSM1z0UzeHRkS&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=1KBs85EVr96rSBDYzUw88g&_nc_ss=7b2a8&oh=00_Af5ub7__zixzl3I3Ei4pNSBAOcxcuissIUcxFrMEpRJ1Sg&oe=69FFF97F',
