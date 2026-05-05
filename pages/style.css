@@ -1797,7 +1797,7 @@ body {
 }
 
 /* =========================================================
-   C.O Outdoor Designs — Refresh overrides
+   L.R Fences — Refresh overrides
    Bright, airy, premium Arizona outdoor-living feel.
    ========================================================= */
 
@@ -2974,7 +2974,7 @@ body {
 
 @media (min-width: 600px) {
   .quote-wizard__grid--services {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

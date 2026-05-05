@@ -12,16 +12,16 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>C.O Outdoor Designs — Handcrafted Gazebos, Pergolas & Wood Fences</title>
+          <title>L.R Fences — Professional Fences, Gates &amp; Pergolas in Phoenix</title>
           <meta
             name="description"
-            content="C.O Outdoor Designs builds handcrafted wooden gazebos, pergolas, patio shades, and custom wood fences across the Phoenix metro. Free on-site estimates from Carlos: (623) 920-2015."
+            content="L.R Fences builds custom fences, gates, pergolas, and patio shades across the Phoenix metro. Free on-site estimates. Call (602) 497-5085."
           />
           <meta name="theme-color" content="#ea580c" />
-          <meta property="og:title" content="C.O Outdoor Designs" />
+          <meta property="og:title" content="L.R Fences" />
           <meta
             property="og:description"
-            content="Handcrafted wooden gazebos, pergolas, and fences designed for your Arizona backyard."
+            content="Professional fences, gates, and pergolas made for your Arizona home or business."
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
@@ -38,7 +38,7 @@ const Home = (props) => {
         <section id="home" className="hero-showcase">
           <div className="hero-showcase__video-container">
             <img
-              alt="Handcrafted wooden pergola in a sunlit Arizona backyard"
+              alt="Custom pergola and outdoor shade structure in an Arizona backyard"
               src="https://images.pexels.com/photos/13871296/pexels-photo-13871296.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2400"
               fetchpriority="high"
               className="hero-showcase__video"
@@ -46,12 +46,9 @@ const Home = (props) => {
             <div className="hero-showcase__overlay"></div>
           </div>
           <div className="hero-showcase__content reveal">
-            <h1 className="hero-title">
-              Crafted Outdoor Living, Built to Last
-            </h1>
+            <h1 className="hero-title">L.R Fences</h1>
             <p className="hero-subtitle">
-              Handcrafted wooden gazebos, pergolas, and fences designed for your
-              backyard.
+              Professional Fences, Gates, And Pergolas Made For You.
             </p>
             <div className="hero-showcase__actions">
               <a href="#contact">
@@ -70,9 +67,7 @@ const Home = (props) => {
         <section id="services" className="core-services">
           <div className="core-services__container">
             <div className="core-services__header reveal">
-              <p className="core-services__eyebrow">
-                Why C.O Outdoor Designs?
-              </p>
+              <p className="core-services__eyebrow">Why L.R Fences?</p>
               <h2 className="core-services__heading">
                 We&apos;re ready to show you why we&apos;re Arizona&apos;s go-to
                 choice for handcrafted outdoor structures.
@@ -99,16 +94,14 @@ const Home = (props) => {
             <div className="core-services__rows">
               <div className="core-services__row">
                 <div className="core-services__card-text reveal">
-                  <p className="core-services__card-eyebrow">
-                    Why C.O Outdoor Designs?
-                  </p>
+                  <p className="core-services__card-eyebrow">Why L.R Fences?</p>
                   <h3 className="core-services__card-heading">
-                    Custom Gazebos &amp; Pergolas
+                    Custom Pergolas &amp; Patio Shades
                   </h3>
                   <p className="core-services__card-body">
-                    Handcrafted from premium wood and designed to complement
-                    your outdoor space perfectly. Built to handle Arizona heat
-                    and bring comfort to every backyard gathering.
+                    Custom pergolas and patio shades made from fabric, steel, or
+                    professionally varnished wood slabs, built to your
+                    specifications.
                   </p>
                   <a href="#contact">
                     <span className="core-services__cta">
@@ -119,7 +112,7 @@ const Home = (props) => {
                 <div className="core-services__card-image reveal">
                   <div className="core-services__card-image-frame">
                     <img
-                      alt="Handcrafted custom wooden gazebo in a sunlit Arizona backyard"
+                      alt="Custom pergola and patio shade structure"
                       src="https://images.pexels.com/photos/13871294/pexels-photo-13871294.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                       loading="lazy"
                     />
@@ -128,16 +121,11 @@ const Home = (props) => {
               </div>
               <div className="core-services__row core-services__row--reverse">
                 <div className="core-services__card-text reveal">
-                  <p className="core-services__card-eyebrow">
-                    Why C.O Outdoor Designs?
-                  </p>
-                  <h3 className="core-services__card-heading">
-                    Wood Fence Building
-                  </h3>
+                  <p className="core-services__card-eyebrow">Why L.R Fences?</p>
+                  <h3 className="core-services__card-heading">Custom Fences</h3>
                   <p className="core-services__card-body">
-                    Durable, beautifully finished wooden fences for privacy,
-                    security, and timeless style. Every board hand-selected,
-                    every post set to last.
+                    Fences made from chain link, wood, vinyl plastic, and
+                    custom-welded steel.
                   </p>
                   <a href="#contact">
                     <span className="core-services__cta">
@@ -157,16 +145,11 @@ const Home = (props) => {
               </div>
               <div className="core-services__row">
                 <div className="core-services__card-text reveal">
-                  <p className="core-services__card-eyebrow">
-                    Why C.O Outdoor Designs?
-                  </p>
-                  <h3 className="core-services__card-heading">
-                    Patio Shades &amp; Covers
-                  </h3>
+                  <p className="core-services__card-eyebrow">Why L.R Fences?</p>
+                  <h3 className="core-services__card-heading">Custom Gates</h3>
                   <p className="core-services__card-body">
-                    Custom-built wooden patio shades and covers that bring
-                    comfort and elegance to your outdoor area. Designed for
-                    Arizona sun, built for family memories.
+                    Custom RV and Home Gates made with steel and wood. Custom
+                    welded to your measurements with optional automated opening.
                   </p>
                   <a href="#contact">
                     <span className="core-services__cta">
@@ -177,7 +160,7 @@ const Home = (props) => {
                 <div className="core-services__card-image reveal">
                   <div className="core-services__card-image-frame">
                     <img
-                      alt="Handcrafted wooden patio shade cover over a backyard dining area"
+                      alt="Custom steel and wood gate installation"
                       src="https://images.pexels.com/photos/34277689/pexels-photo-34277689.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                       loading="lazy"
                     />
@@ -228,7 +211,7 @@ const Home = (props) => {
                 </svg>
               </div>
               <span className="home-thq-section-content-elm17 section-content">
-                Premium Wood Materials
+                Premium Materials
               </span>
             </div>
             <div className="trust-strip__item">
@@ -377,7 +360,7 @@ const Home = (props) => {
                     <span>★★★★★</span>
                   </div>
                   <p className="section-content">
-                    &quot;The custom fence C.O Outdoor Designs built for us is
+                    &quot;The custom fence L.R Fences built for us is
                     both sturdy and beautiful. It&apos;s rare to find this level
                     of craftsmanship these days. Professional from start to
                     finish.&quot;
@@ -462,9 +445,9 @@ const Home = (props) => {
                 <p className="home-thq-section-content-elm33 section-content">
                   Owner: Carlos
                 </p>
-                <a href="tel:6239202015">
+                <a href="tel:+16024975085">
                   <div className="contact-section__phone">
-                    <span>(623) 920-2015</span>
+                    <span>(602) 497-5085</span>
                   </div>
                 </a>
               </div>
@@ -606,13 +589,13 @@ const Home = (props) => {
                         type="button"
                         className="quote-wizard__choice"
                         data-field="service"
-                        data-value="Gazebo / Pergola"
+                        data-value="Custom Pergolas & Patio Shades"
                       >
                         <span className="quote-wizard__choice-icon" aria-hidden="true">
                           🏛️
                         </span>
                         <span className="quote-wizard__choice-label">
-                          Gazebo / Pergola
+                          Custom Pergolas &amp; Patio Shades
                         </span>
                         <span
                           className="quote-wizard__choice-check"
@@ -636,13 +619,13 @@ const Home = (props) => {
                         type="button"
                         className="quote-wizard__choice"
                         data-field="service"
-                        data-value="Wood Fence"
+                        data-value="Custom Fences"
                       >
                         <span className="quote-wizard__choice-icon" aria-hidden="true">
                           🪵
                         </span>
                         <span className="quote-wizard__choice-label">
-                          Wood Fence
+                          Custom Fences
                         </span>
                         <span
                           className="quote-wizard__choice-check"
@@ -666,13 +649,73 @@ const Home = (props) => {
                         type="button"
                         className="quote-wizard__choice"
                         data-field="service"
-                        data-value="Patio Shade"
+                        data-value="Custom Gates"
                       >
                         <span className="quote-wizard__choice-icon" aria-hidden="true">
-                          ☀️
+                          🚧
                         </span>
                         <span className="quote-wizard__choice-label">
-                          Patio Shade
+                          Custom Gates
+                        </span>
+                        <span
+                          className="quote-wizard__choice-check"
+                          aria-hidden="true"
+                        >
+                          <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="3"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M20 6L9 17l-5-5"></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button
+                        type="button"
+                        className="quote-wizard__choice"
+                        data-field="service"
+                        data-value="Chain Link Fence"
+                      >
+                        <span className="quote-wizard__choice-icon" aria-hidden="true">
+                          ⛓️
+                        </span>
+                        <span className="quote-wizard__choice-label">
+                          Chain Link Fence
+                        </span>
+                        <span
+                          className="quote-wizard__choice-check"
+                          aria-hidden="true"
+                        >
+                          <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="3"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M20 6L9 17l-5-5"></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button
+                        type="button"
+                        className="quote-wizard__choice"
+                        data-field="service"
+                        data-value="Custom Gate"
+                      >
+                        <span className="quote-wizard__choice-icon" aria-hidden="true">
+                          🚪
+                        </span>
+                        <span className="quote-wizard__choice-label">
+                          Custom Gate
                         </span>
                         <span
                           className="quote-wizard__choice-check"
@@ -878,7 +921,7 @@ const Home = (props) => {
                         hours with a free estimate.
                       </p>
                       <a
-                        href="tel:6239202015"
+                        href="tel:+16024975085"
                         className="quote-wizard__success-cta"
                       >
                         <svg
@@ -894,7 +937,7 @@ const Home = (props) => {
                         >
                           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"></path>
                         </svg>
-                        <span>Or Call Now: (623) 920-2015</span>
+                        <span>Or Call Now: (602) 497-5085</span>
                       </a>
                     </div>
                   </div>
@@ -920,9 +963,9 @@ const Home = (props) => {
                   <span>Request Your Free Estimate</span>
                 </div>
               </a>
-              <a href="tel:6239202015">
+              <a href="tel:+16024975085">
                 <div className="home-thq-btn-elm5 btn btn-lg btn-outline">
-                  <span>Call Carlos: (623) 920-2015</span>
+                  <span>Call Carlos: (602) 497-5085</span>
                 </div>
               </a>
             </div>
@@ -1055,25 +1098,37 @@ const Home = (props) => {
       '[data-role="timeline-blocks"]'
     )
 
-    // Per-service size options — Wood Fence uses linear feet; others sq ft
+    // Per-service size options — linear-ft projections for fences & gates
     const SIZE_OPTIONS = {
-      "Gazebo / Pergola": [
+      "Custom Pergolas & Patio Shades": [
         { value: "Small", label: "Small (under 150 sq ft)" },
         { value: "Medium", label: "Medium (150–400 sq ft)" },
         { value: "Large", label: "Large (400–800 sq ft)" },
         { value: "Extra Large", label: "Extra Large (800+ sq ft)" },
       ],
-      "Wood Fence": [
+      "Custom Fences": [
         { value: "Small", label: "Small (under 50 linear ft)" },
         { value: "Medium", label: "Medium (50–150 linear ft)" },
         { value: "Large", label: "Large (150–300 linear ft)" },
         { value: "Extra Large", label: "Extra Large (300+ linear ft)" },
       ],
-      "Patio Shade": [
-        { value: "Small", label: "Small (under 150 sq ft)" },
-        { value: "Medium", label: "Medium (150–400 sq ft)" },
-        { value: "Large", label: "Large (400–800 sq ft)" },
-        { value: "Extra Large", label: "Extra Large (800+ sq ft)" },
+      "Custom Gates": [
+        { value: "Small", label: "Small (under 50 linear ft)" },
+        { value: "Medium", label: "Medium (50–150 linear ft)" },
+        { value: "Large", label: "Large (150–300 linear ft)" },
+        { value: "Extra Large", label: "Extra Large (300+ linear ft)" },
+      ],
+      "Chain Link Fence": [
+        { value: "Small", label: "Small (under 50 linear ft)" },
+        { value: "Medium", label: "Medium (50–150 linear ft)" },
+        { value: "Large", label: "Large (150–300 linear ft)" },
+        { value: "Extra Large", label: "Extra Large (300+ linear ft)" },
+      ],
+      "Custom Gate": [
+        { value: "Small", label: "Small (under 50 linear ft)" },
+        { value: "Medium", label: "Medium (50–150 linear ft)" },
+        { value: "Large", label: "Large (150–300 linear ft)" },
+        { value: "Extra Large", label: "Extra Large (300+ linear ft)" },
       ],
       Other: [
         { value: "Small", label: "Small (under 150 sq ft)" },
@@ -1451,7 +1506,7 @@ const Home = (props) => {
             return
           }
           try {
-            console.log("C.O Outdoor Designs quote request:", {
+            console.log("L.R Fences quote request:", {
               services: state.services,
               details: state.details,
               timeline: state.timeline,

@@ -31,12 +31,12 @@ const Footer = (props) => {
                       </g>
                     </svg>
                   </div>
-                  <span className="footer-brand-name">C.O Outdoor Designs</span>
+                  <span className="footer-brand-name">L.R Fences</span>
                 </div>
                 <p className="footer-brand-description">
-                  Premium handcrafted wooden gazebos, pergolas, and custom
-                  fencing solutions. We bring warmth and elegance to your
-                  outdoor living spaces with expert craftsmanship.
+                  Professional fences, gates, and pergolas for homes and
+                  businesses across the Phoenix metro. Quality workmanship and
+                  materials you can rely on.
                 </p>
                 <div className="footer-social-links">
                   <a href="#">
@@ -139,9 +139,9 @@ const Footer = (props) => {
                       <span className="footer-contact-label">
                         Owner: Carlos
                       </span>
-                      <a href="tel:6239202015">
+                      <a href="tel:+16024975085">
                         <div className="footer-link-prominent">
-                          <span>(623) 920-2015</span>
+                          <span>(602) 497-5085</span>
                         </div>
                       </a>
                     </div>
@@ -185,7 +185,7 @@ const Footer = (props) => {
               <div className="footer-divider"></div>
               <div className="footer-legal">
                 <p className="footer-copyright">
-                  &copy; {new Date().getFullYear()} C.O Outdoor Designs. All rights reserved.
+                  &copy; {new Date().getFullYear()} L.R Fences. All rights reserved.
                 </p>
                 <div className="footer-legal-links">
                   <a href="#">
