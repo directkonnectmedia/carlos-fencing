@@ -11,6 +11,7 @@ import {
   GALLERY_PREVIEW_COUNT,
   CUSTOM_GATES_PHOTO_URL,
   CUSTOM_FENCES_PHOTO_URL,
+  HERO_BACKGROUND_PHOTO_URL,
 } from '../data/galleryImages'
 
 const Home = (props) => {
@@ -46,8 +47,8 @@ const Home = (props) => {
         <section id="home" className="hero-showcase">
           <div className="hero-showcase__video-container">
             <img
-              alt="Custom pergola and outdoor shade structure in an Arizona backyard"
-              src="https://images.pexels.com/photos/13871296/pexels-photo-13871296.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2400"
+              alt="L.R Fences custom outdoor project"
+              src={HERO_BACKGROUND_PHOTO_URL}
               fetchpriority="high"
               className="hero-showcase__video"
             />
