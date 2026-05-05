@@ -71,7 +71,7 @@ const Home = (props) => {
                 </div>
               </a>
               <a href="#portfolio">
-                <div className="btn btn-lg btn-outline hero-showcase__btn-secondary">
+                <div className="btn btn-lg btn-primary">
                   <span>View Our Work</span>
                 </div>
               </a>
