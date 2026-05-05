@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -6,8 +6,14 @@ import { useTranslations } from 'next-intl'
 
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
+import {
+  GALLERY_IMAGE_URLS,
+  GALLERY_PREVIEW_COUNT,
+} from '../data/galleryImages'
 
 const Home = (props) => {
+  const [galleryExpanded, setGalleryExpanded] = useState(false)
+
   return (
     <>
       <div className="home-container1">
@@ -269,73 +275,56 @@ const Home = (props) => {
             </p>
           </div>
           <div className="portfolio-grid__container reveal">
-            <div className="portfolio-grid__item">
-              <img
-                alt="Custom Gazebo Project"
-                src="https://images.pexels.com/photos/13871307/pexels-photo-13871307.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                loading="lazy"
-              />
-              <div className="portfolio-grid__overlay">
-                <span className="section-content">
-                  Traditional Garden Gazebo
-                </span>
+            {(galleryExpanded
+              ? GALLERY_IMAGE_URLS
+              : GALLERY_IMAGE_URLS.slice(0, GALLERY_PREVIEW_COUNT)
+            ).map((src, index) => (
+              <div className="portfolio-grid__item" key={src}>
+                <img
+                  alt={`L.R Fences project photo ${index + 1}`}
+                  src={src}
+                  loading="lazy"
+                />
+                <div className="portfolio-grid__overlay">
+                  <span className="section-content">
+                    Project {index + 1}
+                  </span>
+                </div>
               </div>
-            </div>
-            <div className="portfolio-grid__item">
-              <img
-                alt="Pergola with Fire Pit"
-                src="https://images.pexels.com/photos/13871296/pexels-photo-13871296.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                loading="lazy"
-              />
-              <div className="portfolio-grid__overlay">
-                <span className="section-content">
-                  Modern Pergola &amp; Fire Pit
-                </span>
-              </div>
-            </div>
-            <div className="portfolio-grid__item">
-              <img
-                alt="Poolside Shade"
-                src="https://images.pexels.com/photos/7587884/pexels-photo-7587884.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                loading="lazy"
-              />
-              <div className="portfolio-grid__overlay">
-                <span className="section-content">Poolside Dining Shade</span>
-              </div>
-            </div>
-            <div className="portfolio-grid__item">
-              <img
-                alt="Luxury Deck Structure"
-                src="https://images.pexels.com/photos/33552579/pexels-photo-33552579.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                loading="lazy"
-              />
-              <div className="portfolio-grid__overlay">
-                <span className="section-content">Luxury Deck Pavilion</span>
-              </div>
-            </div>
-            <div className="portfolio-grid__item">
-              <img
-                alt="Rustic Pavilion"
-                src="https://images.pexels.com/photos/17751638/pexels-photo-17751638.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                loading="lazy"
-              />
-              <div className="portfolio-grid__overlay">
-                <span className="section-content">
-                  Rustic Lakeside Pavilion
-                </span>
-              </div>
-            </div>
-            <div className="portfolio-grid__item">
-              <img
-                alt="Modern Fence Detail"
-                src="https://images.pexels.com/photos/34277692/pexels-photo-34277692.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                loading="lazy"
-              />
-              <div className="portfolio-grid__overlay">
-                <span className="section-content">Custom Privacy Fencing</span>
-              </div>
-            </div>
+            ))}
           </div>
+          {!galleryExpanded &&
+            GALLERY_IMAGE_URLS.length > GALLERY_PREVIEW_COUNT && (
+              <div className="portfolio-grid__actions">
+                <button
+                  type="button"
+                  className="btn btn-lg btn-primary portfolio-grid__expand-btn"
+                  onClick={() => setGalleryExpanded(true)}
+                >
+                  View Full Gallery
+                </button>
+              </div>
+            )}
+          {galleryExpanded && (
+            <div className="portfolio-grid__actions portfolio-grid__actions--close">
+              <button
+                type="button"
+                className="btn btn-lg btn-secondary portfolio-grid__close-btn"
+                onClick={() => {
+                  setGalleryExpanded(false)
+                  const el = document.getElementById('portfolio')
+                  if (el) {
+                    window.scrollTo({
+                      top: el.offsetTop - 80,
+                      behavior: 'smooth',
+                    })
+                  }
+                }}
+              >
+                Close Gallery
+              </button>
+            </div>
+          )}
         </section>
         <section id="reviews" className="reviews-carousel">
           <div className="reviews-carousel__container reveal">
