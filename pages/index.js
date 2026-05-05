@@ -46,7 +46,10 @@ const Home = (props) => {
             <div className="hero-showcase__overlay"></div>
           </div>
           <div className="hero-showcase__content reveal">
-            <h1 className="hero-title">L.R Fences</h1>
+            <h1 className="hero-title">
+              L.R{' '}
+              <span className="hero-title__accent">Fences</span>
+            </h1>
             <p className="hero-subtitle">
               Professional Fences, Gates, And Pergolas Made For You.
             </p>
@@ -69,8 +72,7 @@ const Home = (props) => {
             <div className="core-services__header reveal">
               <p className="core-services__eyebrow">Why L.R Fences?</p>
               <h2 className="core-services__heading">
-                We&apos;re ready to show you why we&apos;re Arizona&apos;s go-to
-                choice for handcrafted outdoor structures.
+                Let us show you why we&apos;re Arizona&apos;s go to choice.
               </h2>
             </div>
             <div

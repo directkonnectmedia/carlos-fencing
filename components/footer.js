@@ -31,7 +31,10 @@ const Footer = (props) => {
                       </g>
                     </svg>
                   </div>
-                  <span className="footer-brand-name">L.R Fences</span>
+                  <span className="footer-brand-name">
+                    L.R{' '}
+                    <span className="footer-brand-name__accent">Fences</span>
+                  </span>
                 </div>
                 <p className="footer-brand-description">
                   Professional fences, gates, and pergolas for homes and
