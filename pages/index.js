@@ -9,6 +9,7 @@ import Footer from '../components/footer'
 import {
   GALLERY_IMAGE_URLS,
   GALLERY_PREVIEW_COUNT,
+  CUSTOM_GATES_PHOTO_URL,
 } from '../data/galleryImages'
 
 const Home = (props) => {
@@ -169,7 +170,7 @@ const Home = (props) => {
                   <div className="core-services__card-image-frame">
                     <img
                       alt="Custom steel and wood gate installation"
-                      src="https://images.pexels.com/photos/34277689/pexels-photo-34277689.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src={CUSTOM_GATES_PHOTO_URL}
                       loading="lazy"
                     />
                   </div>
