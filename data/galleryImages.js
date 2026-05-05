@@ -11,7 +11,7 @@ export const CUSTOM_FENCES_PHOTO_URL =
   'https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/668985570_928865306431625_8559115023608950908_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=TyrFa59mlaMQ7kNvwEB1oUj&_nc_oc=AdpT2XCY8yxJOqeavYgfnDzKTh6DJNDhLNjOge3bURfxDfhY3katykgYdWRYl4Pig0NzbquJKZMwx-dT5OOXQnuP&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=pp4SLime7K0ai4bHNeFXiA&_nc_ss=7b2a8&oh=00_Af42lnuskUOhOk0Ge-CXZI_7fprQbc6iGu9acMC_rlp15w&oe=69FFF631'
 
 /** Hero background (local asset; gallery Project 6 below uses its own FB URL) */
-export const HERO_BACKGROUND_PHOTO_URL = '/hero-bg-2-carlos-fence.avif'
+export const HERO_BACKGROUND_PHOTO_URL = '/hero-pexels-nc-farm-bureau-mark-11679508.jpg'
 
 /** Facebook CDN URLs for Our Recent Work gallery */
 export const GALLERY_IMAGE_URLS = [
