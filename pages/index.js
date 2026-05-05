@@ -47,7 +47,7 @@ const Home = (props) => {
         <section id="home" className="hero-showcase">
           <div className="hero-showcase__video-container">
             <img
-              alt="L.R Fences custom outdoor project"
+              alt="Modern backyard with custom metal fence, pool, and pergola at sunset"
               src={HERO_BACKGROUND_PHOTO_URL}
               fetchpriority="high"
               className="hero-showcase__video"
